@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn -B -DskipTests clean verify' 
+                sh '/work/pdakle/mvn -B -DskipTests clean verify' 
             }
         }
     }
